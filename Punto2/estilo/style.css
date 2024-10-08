@@ -1,0 +1,29 @@
+
+.principal{
+    align-items: center;
+    height: auto;
+    background: rgba(255, 255, 255, 0.692);
+    
+}
+
+body{
+    background-image: url('../images/fondo.jfif'); /* Ruta de la imagen */
+    background-size: auto; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+    background-position:70%; /* Centra la imagen en la pantalla */
+    background-position-y: top;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.resultado{
+    height: 50px;
+    background:rgb(196, 196, 196);
+}
+
+.resultado>p{
+    text-align: center;
+}

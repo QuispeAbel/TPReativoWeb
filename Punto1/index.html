@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilo/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <section class="container d-flex flex-column justify-content-center principal">
+          <div class="row g-3 mb-5">
+            <div class="col-auto">
+              <h1 class="text-light">Ludopatas.com</h1>
+            </div>
+          </div>
+          <div class="row g-3 mb-5">
+            <div class="col-auto">
+              <h3 class="text-light">Mejor intento:</h3>
+            </div>
+            <div class="col-auto">
+              <h3 class="text-light" id="mejorIntento">-</h3>
+            </div>
+            <div class="col-auto">
+              <h3 class="text-light">Partidas Finalizadas:</h3>
+            </div>
+            <div class="col-auto">
+              <h3 class="text-light" id="partidas">-</h3>
+            </div>
+            <div class="col-auto">
+              <h3 class="text-light">Promedio Intentos:</h3>
+            </div>
+            <div class="col-auto">
+              <h3 class="text-light" id="promedios">-</h3>
+            </div>
+          </div>
+          <div class="row g-3 mb-3">
+            <div class="col-auto">
+              <label class="text-light">Numero de Intentos:</label>
+            </div>
+            <div class="col-auto">
+              <nav class="bg-light px-1 rounded-2">
+                <p id="intentos">0</p>
+              </nav>
+            </div>
+            <div class="col-auto">
+              <label class="text-light">Numero Anterior:</label>
+            </div>
+            <div class="col-auto">
+              <nav class="bg-light px-1 rounded-2">
+                <p id="anterior">-</p>
+              </nav>
+            </div>
+          </div>
+          <form id="miFormulario" class="row g-3">
+                <div class="col-auto">
+                  <label for="ingresoNumero" class="visually-hidden">Numero</label>
+                  <input type="text" class="form-control" id="ingresoNumero" placeholder="Numero">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn animated-button mb-3">Intentar</button>
+                </div>
+                <div class="col-auto">
+                  <button type="reset" class="btn animated-button mb-3">Reiniciar</button>
+                </div>
+              </form>
+        </section>
+        <script src="script/script.js"></script>
+    </body>
+    
+</html>
