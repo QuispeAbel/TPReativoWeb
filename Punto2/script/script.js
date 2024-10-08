@@ -15,7 +15,7 @@ let jsonData;
 // Cargar el archivo JSON
 $.ajax({
     type: "GET",
-    url: "http://localhost/tpAjax/Punto2/backend/json.json",
+    url: "http://localhost/TPReativoWeb/Punto2/backend/json.json",
     dataType: "json",
     success: function(data) {
         jsonData = data;
