@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD de Usuarios</h1>
+        <input type="text" id="searchInput" placeholder="Buscar usuario" oninput="searchUsers()">
+        <button onclick="showForm()" class="agregar-btn">Agregar Usuario</button>
+        <div id="userList"></div>
+        <div id="pagination"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <h2 id="formTitle">Agregar Usuario</h2>
+            <input type="hidden" id="userId">
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Correo" required>
+            <button onclick="submitForm()">Guardar</button>
+            <button onclick="hideForm()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

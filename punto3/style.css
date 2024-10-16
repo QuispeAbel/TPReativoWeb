@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#userList {
+  margin: 20px 0;
+}
+
+.user {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-editar {
+  background-color: blue; /* Azul */
+  color: white; /* Color del texto */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px; /* Espaciado entre botones */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-editar:hover {
+  background-color: darkblue; /* Color más oscuro al hacer hover */
+}
+
+.btn-eliminar {
+  background-color: red; /* Rojo */
+  color: white; /* Color del texto */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px; /* Espaciado entre botones */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-eliminar:hover {
+  background-color: darkred; /* Color más oscuro al hacer hover */
+}
+
+.btn-paginacion {
+  background-color: gray; /* Gris */
+  color: white; /* Color del texto */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px; /* Espaciado entre botones */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-paginacion:hover {
+  background-color: darkgray; /* Color más oscuro al hacer hover */
+}
+
+.agregar-btn {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agregar-btn:hover {
+  background: #218838;
+}
+
+#pagination {
+  margin: 20px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none; /* Ocultar el modal por defecto */
+  position: fixed; /* Mantener el modal en una posición fija */
+  z-index: 1; /* Asegurarse de que el modal esté por encima del contenido */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  overflow: auto; /* Habilitar scroll si es necesario */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* Centrar el modal */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Ancho del modal */
+  border-radius: 5px; /* Bordes redondeados */
+}
